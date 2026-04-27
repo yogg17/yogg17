@@ -36,7 +36,7 @@ I am a backend-focused Software Engineer with a passion for **System Design**, *
 ---
 
 ### 📊 Performance & Metrics
-- **LeetCode:** [- **LeetCode:** [(https://leetcode.com/u/yogg17/)] | Contest Rating: **1,390**] | Contest Rating: **1,390**
+- **LeetCode:** [**LeetCode:** (https://leetcode.com/u/yogg17/) | Contest Rating: **1,390**] | Contest Rating: **1,390**
 - **Academic:** Ranked **4th** out of department (VIT, Software Engineering)
 - **Impact:** Developed 20+ E2E automation suites for OLT/SDAN traffic validation.
 
