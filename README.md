@@ -8,7 +8,7 @@ I am a backend-focused Software Engineer with a passion for **System Design**, *
 
 ### 🚀 Featured Architectural Projects
 
-#### 🧠 [KnowMore | Dynamic RAG Engine](github.com/yogg17/KnowMore)
+#### 🧠 [KnowMore | Dynamic RAG Engine]((https://github.com/yogg17/KnowMore)
 *A high-fidelity intelligence platform optimized for No-GPU environments.*
 - **The Core:** Leverages **FAISS HNSW** indexing and **Q4_K_M quantization** to run LLMs on standard CPUs.
 - **Innovation:** Implemented a **SQLite-driven Live Data Pipeline** that allows real-time re-indexing without manual document regeneration.
