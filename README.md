@@ -1,43 +1,59 @@
-# 👨‍💻 [yogg17] | R&D Software Engineer
+# Yogeshwar G
 
-### Engineering the Future of Network Infrastructure & Intelligent Systems
+**Associate Engineer @ Nokia Networks | Test Automation | Platform Engineering | Applied AI | Python**
 
-I am a backend-focused Software Engineer with a passion for **System Design**, **Asynchronous Orchestration**, and **High-Performance Computing**. My work focuses on bridging the gap between hardware-level network protocols and high-level software abstractions.
-
----
-
-### 🚀 Featured Architectural Projects
-
-#### 🧠 [KnowMore | Dynamic RAG Engine](https://github.com/yogg17/KnowMore)
-*A high-fidelity intelligence platform optimized for No-GPU environments.*
-- **The Core:** Leverages **FAISS HNSW** indexing and **Q4_K_M quantization** to run LLMs on standard CPUs.
-- **Innovation:** Implemented a **SQLite-driven Live Data Pipeline** that allows real-time re-indexing without manual document regeneration.
-- **Tech Stack:** Python, SQLite3, Sentence-Transformers, Flask.
-
-#### 🌐 [NCP | Network Control Plane](https://github.com/yogg17/Network-Control-Plane)
-*Asynchronous NETCONF orchestration layer for high-concurrency environments.*
-- **The Core:** Decoupled execution model using **Celery/Redis** to manage long-running RPCs without UI latency.
-- **Innovation:** Automated XML-to-YAML transformation pipeline for real-time device state visualization.
-- **Tech Stack:** Flask (MVC), Redis, Celery, HTMX, NETCONF.
-
-#### 🔒 [NodeLock | Network Node Manager](https://github.com/yogg17/NodeLock)
-*Enterprise-grade resource allocation platform.*
-- **Impact:** Reduced team operational overhead by **90%**.
-- **The Core:** Enforces **Atomic State Transitions** to ensure zero-collision reservations in shared lab environments.
+Applied R&D Engineer at Nokia Networks, Fixed Networks Broadband division — building test automation and operational platforms for OLT/SDN infrastructure, and shipping applied AI.
 
 ---
 
-### 🛠️ Technical Arsenal
-- **Languages:** C++, Python, SQL
-- **Frameworks:** Flask, Robot Framework, Jinja2
-- **Infrastructure:** Celery, Redis, SQLite, FAISS
-- **Protocols:** NETCONF, TLS/mTLS, EST, SFTP
+### Work
+
+**Test Automation**
+
+I own 17 Robot Framework test suites (48 test cases) running as weekly regression against Lightspan OLTs and Altiplano SDN. The suites protect the full secure software installation path — EST mTLS, SFTP, and PKI configured certificates — on both simplex and redundant NT hardware. Every failure mode is a named test case. Every state transition is verified. Every teardown is deterministic so the next batch starts clean. Over 30 defect fixes across 75 changesets.
+
+**Platform Engineering**
+
+Built the Network Ops Platform — four modules: Equipment Dashboard, Network Control Plane, KnowMore, and Lightspan Health. 440+ reservation cycles across 30+ OLT chassis. 600+ NETCONF device operations in six months. ~90% reduction in equipment coordination overhead.
+
+**Applied AI**
+
+KnowMore is an on-premises Agentic AI platform with domain-specific agents powered by hybrid FAISS + BM25 + RRF retrieval. Fully air-gapped with a local LLaMA 3.1 8B fallback when cloud models are unavailable.
+
+Beyond KnowMore, I maintain a formal register of **8 shipped AI initiatives**:
+
+- **RAG platform:** KnowMore — FAISS + BM25 + RRF, local LLaMA 3.1 8B, zero cloud or GPU dependency
+- **Enterprise LLM agents:** team domain assistant and product knowledge assistant, grounded in internal documentation
+- **Cursor Agent Skills:** automated test generation from work items, feature wiki creation, implementation patch generation, defect triage dashboards
+- **Efficiency Tracker:** mines AI session history to produce management-facing monthly productivity reports with evidence-backed metrics
+- **AI-SDLC workshop:** agentic AI connected to project tracking and documentation systems via MCP — generated code entered production code review
 
 ---
 
-### 📊 Performance & Metrics
-- **LeetCode:** [**LeetCode:** (https://leetcode.com/u/yogg17/) | Contest Rating: **1,390**] | Contest Rating: **1,390**
-- **Academic:** Ranked **4th** out of department (VIT, Software Engineering)
-- **Impact:** Developed 20+ E2E automation suites for OLT/SDAN traffic validation.
+### Projects
 
-"Refactoring the world, one commit at a time."
+| Project | Description |
+| --- | --- |
+| [KnowMore](https://github.com/yogg17/KnowMore) | On-premises Agentic AI platform — domain-specific agents, FAISS + BM25 + RRF retrieval, air-gapped |
+| [Network Control Plane](https://github.com/yogg17/Network-Control-Plane) | Browser-based NETCONF/ConfD console for Lightspan OLTs — pre-flight checks, async execution, session audit logs |
+| [NodeLock](https://github.com/yogg17/NodeLock) | OLT equipment reservation platform — 440+ cycles, ~90% coordination overhead reduction |
+| [SnipStack](https://github.com/yogg17/SnipStack) | Personal snippet and runbook knowledge base |
+
+---
+
+### Stack
+
+`Python` · `Robot Framework` · `NETCONF/YANG` · `Flask` · `Celery` · `Redis` · `SQLAlchemy` · `HTMX` · `FAISS` · `BM25` · `LLaMA 3.1` · `MCP` · `mTLS/EST` · `OpenSSL` · `Linux` · `SQL`
+
+---
+
+### Education
+
+**VIT Chennai** — Integrated B.Tech + M.Tech, Software Engineering (2024)  
+CGPA 9.48/10 · Department Rank 4
+
+---
+
+### Links
+
+[LinkedIn](https://www.linkedin.com/in/yogg17/) · [LeetCode](https://leetcode.com/yogg17/) · [Google Scholar](https://scholar.google.com/citations?user=jdOycWsAAAAJ)
